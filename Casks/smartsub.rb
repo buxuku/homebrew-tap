@@ -1,13 +1,13 @@
 cask "smartsub" do
-  version "3.12.1"
+  version "3.12.2"
 
   on_intel do
-    sha256 "345598f8f492187bdd09ca525f2a651d645992f993e5a6def07a69a451a17efe"
+    sha256 "884ca26169f8030d2e6a02c91e5c9ca0827a533b3c132aa0b54b51b005fa0042"
     url "https://github.com/buxuku/SmartSub/releases/download/v#{version}/SmartSub_Mac_#{version}_x64.dmg"
   end
 
   on_arm do
-    sha256 "f5bdb4c1eab92dc56028f2ecee609f7706e04115fac8bc8e3e8e67faad12df0e"
+    sha256 "949380cae8dccef059056401a67ba830459304c92ba85f86fd234f9c979ded4f"
     url "https://github.com/buxuku/SmartSub/releases/download/v#{version}/SmartSub_Mac_#{version}_arm64.dmg"
   end
 
